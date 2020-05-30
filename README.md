@@ -1,10 +1,13 @@
-# This is a test
+# Multimedia Slides with reveal.js
 
+I compiled the file from the markdown using **pandoc**
 
-I compiled the file from the markdown 
+- it's quite fast but doesn't appear to give me much control, maybe write
+  a python script to do it later
+- I had to use html **audio** tags as I needed autoplay behavior that
+  **reveal** blocks :(
 
-
-pandoc -t revealjs -s -o myslides.html slides.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/ -i --mathjax:
+```pandoc -t revealjs -s -o myslides.html slides.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/ -i --mathjax```
 
 -i is important stands for incremental !!
 
@@ -12,7 +15,14 @@ pandoc -t revealjs -s -o myslides.html slides.md -V revealjs-url=https://unpkg.c
 
 ## The voice is compiled like this:
 
-flite -t "I have always wondered what it would be like to be Hawkings" -o
-word2.wav
+well it's what is available client side :(
 
-ffmpeg -i word2.wav -acodec mp3 word3.mp3
+```flite -t "I have always wondered what it would be like to be Hawkings" -o word2.wav```
+
+```ffmpeg -i word2.wav -acodec mp3 word3.mp3```
+
+actually for my second attempt I used python and **gtts** <br>
+WTF it's a-fecking-mazing but
+ 
+- it is server side
+- I don't know how many requests you are limited to on a free tier
