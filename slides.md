@@ -1,24 +1,43 @@
-% Eating Habits
-% John Doe
-% March 22, 2005
+% Genesis 
+% Greg Mc
+% May 2020
 
-# In the morning
+# There was the void
 
 <audio  data-autoplay >
-<source src="./track01.mp3" type="audio/mpeg">
+<source src="./word3.mp3" type="audio/mpeg">
 </audio>
 <br>
 
-- Eat eggs
-- Drink coffee
+
+# In the morning
+
+- let there be light
+- and there was light
+
+<audio  data-autoplay >
+<source src="./word.mp3" type="audio/mpeg">
+</audio>
+<br>
 
 # In the evening
 
-- Eat spaghetti
-- Drink wine
+<audio  data-autoplay >
+<source src="./word2.mp3" type="audio/mpeg">
+</audio>
+<br>
+
+so he 
+
+- ate lots of spaghetti
+- drunk some wine
 
 # Conclusion
 
 - And the answer is...
-- $f(x)=\sum_{n=0}^\infty\frac{f^{(n)}(a)}{n!}(x-a)^n$    
+- Not obvious
+<div style="font-size: 250%;">
+ $\sum_{\gamma} \frac{1}{1 + e^{|\gamma|} } = \frac12$
+</div>
 
+# The End 
