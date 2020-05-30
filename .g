@@ -1,3 +1,3 @@
 git add --a
-git commit -m "upload"
+git commit -m "web"
 git push origin master
