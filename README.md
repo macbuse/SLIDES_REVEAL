@@ -1,6 +1,8 @@
 # Multimedia Slides with reveal.js
 
-I compiled the file from the markdown using **pandoc**
+I compiled the 
+[file](https://macbuse.github.io/SLIDES/myslides.html)
+ from the markdown using **pandoc**
 
 - it's quite fast but doesn't appear to give me much control, maybe write
   a python script to do it later
