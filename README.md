@@ -22,7 +22,9 @@ well it's what is available client side :(
 ```ffmpeg -i word2.wav -acodec mp3 word3.mp3```
 
 actually for my second attempt I used python and **gtts** <br>
-WTF it's a-fecking-mazing but
+WTF it's a-fecking-mazing 
+[see here](https://macbuse.github.io/DAO/myslides.html)
+but
  
 - it is server side
 - I don't know how many requests you are limited to on a free tier
